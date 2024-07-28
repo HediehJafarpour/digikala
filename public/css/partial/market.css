@@ -175,9 +175,9 @@
         }
       }
     }
-    .navheader__bottom__menu:hover {
+    /* .navheader__bottom__menu:hover {
       border-bottom: 2px solid #16a257;
-    }
+    } */
     .header__bottom__location {
       width: 20%;
       height: inherit;
