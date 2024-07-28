@@ -1,0 +1,71 @@
+.digiclub {
+  width: 1340px;
+  height: 90px;
+  background: linear-gradient(
+    90deg,
+    rgba(53, 166, 200, 1) 12%,
+    rgba(41, 154, 189, 1) 28%,
+    rgba(0, 114, 149, 1) 55%
+  );
+  border-radius: 15px;
+  margin: 25px auto;
+  display: flex;
+  padding-right: 45px;
+    .digiclub__logo{
+        width: 30%;
+        padding-top: 10px;
+        img{
+            width: 119px;
+            margin: 20px auto;
+        }
+    }
+
+
+}
+.digiclub__itemes{
+    width: 80%;
+    display: flex;
+    position: relative;
+    padding-right: 100px;
+    flex-flow: row-reverse;
+    padding-left: 15px;
+    padding-top: 5px;
+
+    .digiclub__iteme{
+        width: 256.5px;
+        height: 63.5px;
+        background-color: #fff;
+        display: flex;
+        flex-flow: row-reverse;
+        margin-top: 10px;
+        margin-right: 5px;
+        overflow: hidden;
+        padding-right: 5px;
+        .digiclub__iteme__left{
+            padding-top: 3px;
+            img{
+                width: 168px;
+                height: 60px;
+            }
+        }
+        .digiclub__iteme__right{
+            display: flex;
+            flex-flow: row;
+            font-family: var(--IranYekan);
+            font-size: 12px;
+            align-items: center;
+            img{
+                /* width: 18px; */
+                height: 18.33px;
+                margin-left: 5px;
+
+            }
+        }
+    }
+    .digiclub__iteme1{
+        border-radius: 8px 0 0 8px ;
+    }
+    .digiclub__iteme3{
+        border-radius: 0 8px 8px 0;
+    }
+}

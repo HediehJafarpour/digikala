@@ -1,0 +1,79 @@
+.sortoffers{
+    width: 1340px;
+    height: 420px;
+    margin: 15px auto;
+    border-radius: 15px;
+    border: solid 1px lightgray;
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: var(--IranYekan);
+    .sortoffers__product__header{
+        font-size: 16px;
+        color: #23254e;
+        padding-right: 25px;
+        padding-top: 15px;
+    }
+    .sortoffers__product__detail{
+        font-size: 11px;
+        color: #81858b;
+        padding-right: 25px;
+        padding-top: 4px;
+    }
+    .sortoffers__product{
+        width: 25%;
+        height: inherit;
+        position: relative;
+        border-left: 1px solid lightgray;
+        .sortoffers__product__itemes{
+            padding: 20px;
+            display: flex;
+            flex-flow: row wrap;
+            img{
+                width: 130px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+            }
+            .sortoffers__product__itemes1{
+                border-left: 1px solid lightgray;
+                border-bottom: 0.5 px solid lightgray;
+                padding-left: 10px;
+            }
+            .sortoffers__product__itemes2{
+                border-bottom: 0.5 px solid lightgray;
+            }
+            .sortoffers__product__itemes3{
+                border-left: 1px solid lightgray;
+                border-top: 1px solid lightgray;
+                padding-left: 10px;
+                padding-top: 8px;
+            }
+            .sortoffers__product__itemes4{
+                border-top: .5px solid lightgray;
+                padding-top: 8px;
+            }
+
+
+        }
+    }
+    .sortoffers__product__more{
+        display: flex;
+        a{
+            display: block;
+            font-family: var(--IranYekan);
+            font-size: 12px;
+            text-decoration: none;
+            color: #19BFD3;
+            position: absolute;
+            bottom: 15px;
+            right: 140px;
+        }
+        img{
+            position: absolute;
+            width: 18px;
+
+        }
+    }
+}
+#sortoffers__product4{
+    border: none;
+}

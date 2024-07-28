@@ -1,0 +1,14 @@
+.offerpicture2{
+    width: 1340px;
+    height: 270px;
+    margin: 10px auto;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    img{
+        width: 660px;
+        height: 264px;
+        border-radius: 15px;
+    }
+
+}

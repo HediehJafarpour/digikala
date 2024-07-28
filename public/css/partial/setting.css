@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: IranYekan;
+    src: url( ../../fonts/farsi/IRANYekanWeb-Bold.eot);
+    src: url( ../../fonts/farsi/IRANYekanWeb-Bold.woff);
+    src: url( ../../fonts/farsi/IRANYekanWeb-Bold.woff2);
+    src: url( ../../fonts/farsi/IRANYekanWeb-Bold.ttf);
+}
+@font-face{
+    font-family: BNazanin;
+    src: url( ../../fonts/bnazanin/B-NAZANIN.TTF);
+}
+:root{
+    --IranYekan: IranYekan;
+    --BNazanin: BNazanin;
+}
+.wrapper{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background-color: #fff;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 10px;
+    font-weight: bold;
+    color: grey;
+
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+    opacity: 0;
+}

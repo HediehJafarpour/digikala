@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.city{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b2b2b;
+    direction: rtl;
+
+    .city-box{
+      width: 460px;
+      height: 595px;
+      margin: 0px auto;
+      border-radius: 10px;
+      font-family: var(--IranYekan);
+      padding-top: 50px;
+  
+  
+      .city-box-top{
+        width: inherit;
+        height: 57px;
+        background-color: #ffffff;
+        display: flex;
+        flex-flow: row;
+        padding-top: 20px;
+        border-radius: 15px 15px 0 0 ;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        p{
+          width: 90%;
+          height: inherit;
+          font-size: 16px;
+        }
+        img{
+          width: 25px;
+          height: 25px;
+          margin-top: 5px;
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          
+        }
+        
+      }
+      
+      span{
+  
+        width: 50px;
+        height: 2px;
+        background-color: lightgray;
+        display: block;
+        margin: 0 auto;
+        opacity: .7;
+      }
+      .city-box-body{
+        width: inherit;
+        height: calc(595px - 50px);
+        background-color: #ffffff;
+        overflow-y: auto;
+        border-radius: 0 0 15px 15px;
+        .city-box-body-h{
+          width: 410px;
+          margin: 0 auto;
+          display: flex;
+          flex-flow: row;
+          font-size: 15px;
+          padding-right: 20px;
+          line-height: 40px;
+          color: #2586ff;
+          column-gap: 15px;
+          border-bottom: 1px solid lightgray;
+          cursor: pointer;
+          img{
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+            
+          }
+        }
+        .city-box-body-i{
+          width: 410px;
+          height: 58px;
+          font-size: 15px;
+          color: #2b2b2b;
+          padding-right: 20px;
+          display: flex;
+          position: relative;
+          line-height: 50px;
+          border-bottom: 1px solid lightgray;
+          margin: 5px auto;
+          cursor: pointer;
+          img{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 30px;
+            height: 30px;
+          }
+  
+  
+        }
+      }
+  
+    }
+    
+  }
